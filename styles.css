@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(47, 140, 253);
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-family: sans-serif;
+}
+
+.main__section {
+    align-content: center;
+    text-align: center;
+    width: 500px;
+    height: 200px;
+}
+
+.game__title {
+    font: italic small-caps bold 46px/1.5 arial;
+}
+
+.game__paragraph {
+    font: 20px sans-serif;
+    margin-bottom: 15px;
+}
+
+#enterYourNumber {
+    width: 5em;
+    height: 3em;
+    border-radius: 0.3em;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.game__checked {
+    width: 6em;
+    height: 3em;
+    border-radius: 0.3em;
+}
+
+.game__checked:hover {
+    background-color: rgb(60, 60, 60);
+    color: white;
+}
+
+#answer {
+    margin-top: 10px;
+    font: normal small-caps bold 16px/1.5 arial;
+    margin-bottom: 15px;
+}
